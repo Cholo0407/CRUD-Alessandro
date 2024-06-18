@@ -13,58 +13,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="112dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="45dp"
         android:text="Registro"
         android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtUserRegister"
+        app:layout_constraintBottom_toTopOf="@+id/txtUserRegistro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txtUserRegister"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="58dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="26dp"
-        android:ems="10"
-        android:hint="Usuario"
-        android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/txtContraRgister"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <EditText
-        android:id="@+id/txtContraRgister"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="58dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="36dp"
-        android:ems="10"
-        android:hint="Contraseña"
-        android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/txtEmailRegister"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtUserRegister" />
-
-    <EditText
-        android:id="@+id/txtEmailRegister"
+        android:id="@+id/txtUserRegistro"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="57dp"
         android:layout_marginEnd="57dp"
-        android:layout_marginBottom="55dp"
+        android:layout_marginBottom="92dp"
         android:ems="10"
-        android:hint="E-Mail"
+        android:hint="Usuario"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtContraRegistro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/txtContraRegistro"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="73dp"
+        android:ems="10"
+        android:hint="Contraseña"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/btnRegistrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtContraRgister" />
+        app:layout_constraintTop_toBottomOf="@+id/txtUserRegistro" />
 
     <Button
         android:id="@+id/btnRegistrar"
@@ -76,5 +62,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEmailRegister" />
+        app:layout_constraintTop_toBottomOf="@+id/txtContraRegistro" />
 </androidx.constraintlayout.widget.ConstraintLayout>

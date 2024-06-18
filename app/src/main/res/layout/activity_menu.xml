@@ -79,14 +79,14 @@
         app:layout_constraintTop_toBottomOf="@+id/txtAutor" />
 
     <EditText
-        android:id="@+id/txtFechaIngreso"
+        android:id="@+id/txtFechaCreacion"
         android:layout_width="353dp"
         android:layout_height="53dp"
         android:layout_marginStart="26dp"
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="11dp"
         android:ems="10"
-        android:hint="Fecha de ingreso"
+        android:hint="Fecha de Creacion"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/txtFechaFinal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -103,7 +103,7 @@
         android:ems="10"
         android:hint="Descripción"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/txtFechaIngreso"
+        app:layout_constraintBottom_toTopOf="@+id/txtFechaCreacion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTicketEmail" />
@@ -120,7 +120,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnEnviar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtFechaIngreso" />
+        app:layout_constraintTop_toBottomOf="@+id/txtFechaCreacion" />
 
     <Button
         android:id="@+id/btnEnviar"

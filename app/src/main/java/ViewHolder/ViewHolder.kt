@@ -1,4 +1,0 @@
-package ViewHolder
-
-class ViewHolder {
-}
