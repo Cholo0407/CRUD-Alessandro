@@ -5,6 +5,47 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="248dp"
+        android:layout_height="56dp"
+        android:text="Ingresa todos los datos para enviar el ticket"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <EditText
+        android:id="@+id/txtTicketTittle"
+        android:layout_width="356dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Titulo"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <EditText
+        android:id="@+id/txtTicketDescription"
+        android:layout_width="358dp"
+        android:layout_height="86dp"
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <EditText
+        android:id="@+id/txtTicketAutor"
+        android:layout_width="355dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Autor"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="276dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
