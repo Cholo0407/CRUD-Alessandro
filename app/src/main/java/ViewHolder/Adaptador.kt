@@ -1,0 +1,4 @@
+package ViewHolder
+
+class Adaptador {
+}

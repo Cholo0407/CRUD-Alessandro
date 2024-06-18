@@ -8,6 +8,13 @@
     android:background="#FFFFFF"
     tools:context=".Menu">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvTickets"
+        android:layout_width="409dp"
+        android:layout_height="191dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="541dp" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="248dp"
@@ -16,36 +23,75 @@
         android:textAlignment="center"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="38dp" />
+        tools:layout_editor_absoluteY="25dp" />
 
     <EditText
-        android:id="@+id/txtTicketTittle"
+        android:id="@+id/txtTitulo"
         android:layout_width="356dp"
         android:layout_height="48dp"
         android:ems="10"
         android:hint="Titulo"
         android:inputType="text"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="110dp" />
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="96dp" />
 
     <EditText
-        android:id="@+id/txtTicketDescription"
-        android:layout_width="358dp"
-        android:layout_height="86dp"
-        android:ems="10"
-        android:hint="Descripción"
-        android:inputType="text"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="178dp" />
-
-    <EditText
-        android:id="@+id/txtTicketAutor"
+        android:id="@+id/txtAutor"
         android:layout_width="355dp"
         android:layout_height="52dp"
         android:ems="10"
         android:hint="Autor"
         android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <EditText
+        android:id="@+id/txtTicketEmail"
+        android:layout_width="356dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <EditText
+        android:id="@+id/txtFechaIngreso"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Fecha de ingreso"
+        android:inputType="text"
         tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="276dp" />
+        tools:layout_editor_absoluteY="373dp" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="355dp"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/txtFechaFinal"
+        android:layout_width="356dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:hint="Fecha de finalización"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Enviar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="491dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
